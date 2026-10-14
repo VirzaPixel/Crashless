@@ -2,6 +2,8 @@
 
 Aplikasi Flutter untuk mendeteksi kerusakan jalan menggunakan model YOLOv8 TFLite dan menyimpan laporan ke Supabase.
 
+<img src="assets/image.png" alt="Example Image">
+
 ## Fitur
 
 - Deteksi `pothole`, `crack`, dan `manhole` dari kamera atau galeri.
