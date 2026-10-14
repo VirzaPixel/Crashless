@@ -1,0 +1,37 @@
+name: crashless_mobile
+description: "Simple road damage detector - Upload image and detect potholes/cracks"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  image_picker: ^1.1.2
+  tflite_flutter: ^0.12.1
+  image: ^4.3.0
+  supabase_flutter: ^2.5.0
+  geolocator: ^12.0.0
+  geocoding: ^3.0.0
+  permission_handler: ^11.3.1
+  uuid: ^4.5.1
+  intl: ^0.19.0
+  cached_network_image: ^3.4.1
+  flutter_dotenv: ^5.2.1
+  google_maps_flutter: ^2.9.0
+  shimmer: ^3.0.0
+  flutter_staggered_animations: ^1.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/models/crashless_model.tflite
+    - assets/.env
